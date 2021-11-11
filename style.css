@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    font-family: 'Metal Mania', cursive;
+    color: grey;
+}
+.navbar-brand:hover{
+    color: grey;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: grey;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color : grey;
+}
+.search{
+    height: 40px;
+    width: 90%;
+    border-radius: 15px;
+    outline: none;
+    margin-right: -35px;
+    font-family: 'Rubik', sans-serif;
+    border: 2px solid black;
+    color: grey;
+    
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    Outline: none;
+    border: none;
+    background: black;
+    color:white;
+    border-radius: 15px;
+    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+}
+.main{
+    background: url(./image/acdc1.png)no-repeat;
+    background-size: cover;
+    height: 70vh;
+    background-position: 20% 80%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0,75),rgba(0,0,0,0,75));
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color:white;
+    font-family: 'Metal Mania', cursive;
+    text-align: center;
+}
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: black;
+    color:white;
+    font-weight: 700;
+    border-radius: 60px;
+    transition: 0.5s;
+}
+h1{
+    font-weight: 700;
+}
+.card:hover{
+    box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+-webkit-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+transition: 0.5s;
+}
+.news{
+    background-color: black;
+    color: white;
+}
+.btn2{
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+.news input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.news::placeholder{
+    color: white;
+}
+.news p{
+    margin: 0;
+}
+.fab{
+    font-size: 2rem;
+    cursor: pointer;
+    padding-right: 5px;
+}
